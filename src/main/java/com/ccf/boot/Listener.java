@@ -14,8 +14,8 @@ public class Listener implements ApplicationListener<ApplicationReadyEvent> {
 
     @Override
     public void onApplicationEvent(final ApplicationReadyEvent event) {
-        Pop pop = SpringContext.getBean(Pop.class);
-        pop.init();
+//        Pop pop = SpringContext.getBean(Pop.class);
+//        pop.init();
     }
 
 }

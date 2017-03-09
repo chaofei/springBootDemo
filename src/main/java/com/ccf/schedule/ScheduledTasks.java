@@ -76,7 +76,7 @@ public class ScheduledTasks {
         }
     }
 
-    @Scheduled(cron="0/5 * * * * ?")
+    //    @Scheduled(cron="0/5 * * * * ?")
     public void pushQueue() {
         java.util.Random random=new java.util.Random();
         for(int i=0;i<10;i++) {
